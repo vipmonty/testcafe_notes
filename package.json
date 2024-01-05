@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "v": "testcafe chrome fixtures/firstTest.js"
+  },
+  "devDependencies": {
+    "testcafe": "^3.5.0"
+  }
+}

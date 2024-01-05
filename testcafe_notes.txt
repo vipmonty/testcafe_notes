@@ -1,0 +1,31 @@
+INSTALL TESTCAFE LOCALLY:
+npm install --save-dev testcafe
+
+CHECK FOR TESTCAFE VERSION:
+testcafe --version
+
+PACKAGE.JSON START EXAMPLE:
+
+{
+  "scripts": {
+    "v": "testcafe chrome fixtures/firstTest.js"
+  },
+  "devDependencies": {
+    "testcafe": "^3.5.0"
+  }
+}
+
+FIXTURE/.JS JAVASCRIPT TEST FILE:
+
+fixture("Vips first fixture")
+
+test
+    .page("youtube.com")
+    ("vip's first test", async t => {
+        console.log("Pass!!!!")
+    });
+test
+    .page('google.com')
+    ('googot', async => {
+        console.log("googot passed too")
+    })
