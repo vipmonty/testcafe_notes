@@ -4,6 +4,10 @@ npm install --save-dev testcafe
 CHECK FOR TESTCAFE VERSION:
 testcafe --version
 
+RUN SCRIPT ON GITBASH/ CMD
+npm run <name of test>
+example: npm run test
+
 PACKAGE.JSON START EXAMPLE:
 
 {
